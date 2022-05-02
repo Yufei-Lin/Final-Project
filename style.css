@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka:wght@300;400&family=Yantramanav:wght@300;400;500&display=swap');
+
+body, html {
+}
+
+body {
+  background-color: #d0f2f3;
+  font-family: 'Bebas Neue', cursive;
+  margin: 0px 120px 0px 120px;
+  font-size: 150%;
+}
+
+header{
+  font-size: 5vw;
+}
+
+h2, h3, img, .menu {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1{
+  color:#fd605a;
+  margin: 120px 0px 120px 0px;
+}
+
+h2{
+  color:#f78982;
+}
+
+h3{
+  color:#fea9a4;
+}
+
+p{
+  margin-top: 0px;
+  margin-bottom: 30px;
+  color:#fea9a4;
+  font-family: 'Fredoka', sans-serif;
+  line-height: 40px;
+}
+
+img{
+  width: 100%;
+  align-self: center;
+  border-radius: 5px;
+}
+
+img + h2 {
+  margin-top: 60px;
+}
+
+.Risks, .benefits, .development, .intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5em;
+  position: sticky;
+  padding: 10px;
+  top: 0px;
+  background-color: #fea9a4 /* Light Pink */  /*#fd605a /* Dark Pink*/;
+  border-radius: 3px;
+  z-index: +99;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.menu a {
+  padding: 10px 20px 5px 20px;
+  border-radius: 3px;
+  transition:  background-color 0.25s, color 0.25s;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #d0f2f3 /* Blue */;
+}
+
+.menu .activeLink:hover {
+  color: #fea9a4 /* Light Pink */;
+}
+
+.activeLink, .activeLink:visited {
+  color: #fd605a /* Dark Pink*/;
+  background-color: #d0f2f3 /* Blue */;
+}
+
+.otherLink, .otherLink:visited {
+  color: #fd605a /* Dark Pink*/;
+}
